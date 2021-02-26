@@ -6,7 +6,7 @@
         id        = "com.phonegap.logindemo"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Login Demo</name>
 
     <description>
         Login demo app with register option
