@@ -4,10 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Kodinger">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; connect-src https://currency-api.appspot.com">
 	<title>Register</title>
-	<script src="js/jquery-3.5.1.js" type="application/javascript"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<script src="js/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/my-login.css">
 </head>
 <body class="my-login-page">
@@ -83,7 +82,8 @@
 		</div>
 	</section>
 
-	
+	<script src="js/jquery-3.5.1.js" type="application/javascript"></script>
+	<script src="js/script.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/my-login.js"></script>

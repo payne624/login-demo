@@ -116,6 +116,7 @@ $(document).ready(function(){
             error:function(xhr, textStatus, errorThrown,data){
                 console.log(errorThrown);
                 console.log(xhr.responseText);
+                alert('login failed');
             }
 
         });
