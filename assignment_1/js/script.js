@@ -40,7 +40,7 @@ $(document).ready(function(){
         //post with ajax
         $.ajax({
             type:"POST",
-            url: "http://assignment.door2doorhub.in/api/create.php",
+            url: "https://assignment.door2doorhub.in/api/create.php",
             data: test,
             ContentType:"application/json",
 
@@ -97,7 +97,7 @@ $(document).ready(function(){
         //post with ajax
         $.ajax({
             type:"POST",
-            url: "http://assignment.door2doorhub.in/api/verify.php",
+            url: "https://assignment.door2doorhub.in/api/verify.php",
             dataType: 'text',
             data: test,
             ContentType:"application/json",
