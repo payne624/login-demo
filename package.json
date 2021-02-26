@@ -4,7 +4,7 @@
   "description": "> A Login template built with PhoneGap",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phonegap/phonegap-app-hello-world.git"
+    "url": "git@github.com:payne624/login-demo.git"
   },
   "author": "Navneet Murmu",
   "license": "Apache-2.0",
